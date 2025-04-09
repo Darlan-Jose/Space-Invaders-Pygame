@@ -14,11 +14,11 @@ class Configuraçoes():
         #Configuração de projéteis
         self.projetil_largura= 3
         self.projetil_altura= 15
-        self.projetil_cor= 255, 100, 0
+        self.projetil_cor= 255, 255, 255
         self.projeteis_permitidos= 5
 
         #Configurações dos alienígenas
-        self.descer_frota_speed= 15
+        self.descer_frota_speed= 10
 
         #frota_direcao= 1 representa a direta; -1 representa a esquerda
         self.frota_direcao= 1
