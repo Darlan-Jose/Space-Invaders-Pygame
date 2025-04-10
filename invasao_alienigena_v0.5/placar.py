@@ -92,7 +92,7 @@ class Placar():
 
 class Creditos():
     '''
-    Escrever depois
+    Uma classe para mostrar os créditos na tela inicial do jogo
     '''
     def __init__(self, ai_configuracoes, tela, estatisticas):
         '''
@@ -103,14 +103,14 @@ class Creditos():
         self.ai_configuracoes= ai_configuracoes
         self.estatisticas= estatisticas
  
-        #Configurações de fonte para as informações da pontuação
+        #Configurações de fonte para as informações dos créditos
         self.texto_cor= (255, 255, 255)
         self.fonte= pygame.font.SysFont(None, 25)
  
         self.prep_images()
 
     def prep_images(self):
-        #Prepara a imagem da pontuação inicial
+        #Prepara a imagem
         self.prep_creditos()
 
     def mostrar_creditos(self):
